@@ -17,6 +17,9 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Filha de Ogum - Ajuda Espiritual",
   description: "Há mais de 35 anos guiando caminhos. Amarração amorosa, leitura de cartas e libertação espiritual.",
+  icons: {
+    icon: "/favicon-lua.svg",
+  },
 };
 
 export default function RootLayout({
