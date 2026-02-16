@@ -20,6 +20,28 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon-lua.svg",
   },
+  openGraph: {
+    title: "Filha de Ogum - Ajuda Espiritual",
+    description: "Há mais de 35 anos guiando caminhos. Amarração amorosa, leitura de cartas e libertação espiritual.",
+    url: "https://filha-de-ogum.vercel.app",
+    siteName: "Filha de Ogum",
+    images: [
+      {
+        url: "/images/oxossi.png",
+        width: 800,
+        height: 600,
+        alt: "Filha de Ogum - Ajuda Espiritual",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Filha de Ogum - Ajuda Espiritual",
+    description: "Há mais de 35 anos guiando caminhos. Amarração amorosa, leitura de cartas e libertação espiritual.",
+    images: ["/images/oxossi.png"],
+  },
 };
 
 export default function RootLayout({
