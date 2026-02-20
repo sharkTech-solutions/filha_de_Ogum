@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cinzel, Lato } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google"; // <-- 1. Importação da Tag do Google
 import "./globals.css";
 
 const cinzel = Cinzel({
@@ -55,6 +56,7 @@ export default function RootLayout({
         className={`${cinzel.variable} ${lato.variable} antialiased`}
       >
         {children}
+        <GoogleAnalytics gaId="G-LM1CN8FQN4" />
       </body>
     </html>
   );
